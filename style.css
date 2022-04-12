@@ -680,6 +680,13 @@ p {
     font-size: 14px;
 }
 
+.citation {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color: #c27956!important;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -705,7 +712,8 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 600;
     line-height: 1.4em;
 }
 
@@ -1011,7 +1019,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 10px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1025,6 +1033,16 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .social {
+        display: flex;
+        text-align: center;
+        gap: 15%;
+    }
+    .img-responsive {
+        margin: auto;
+        width: 270px;
+        height: 270px;
     }
 }
 
